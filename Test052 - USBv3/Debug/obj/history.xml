@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O1 -c -DPART_TM4C123GH6PM -Dgcc -D__FPU_USED -I..\..\..\workspace\Test052 - USBv3\usblib -I..\..\..\workspace\Test052 - USBv3\third_party\fatfs\src -I..\..\..\workspace\Test052 - USBv3\third_party -I..\..\..\workspace\Test052 - USBv3\cmsis -I..\..\..\workspace\Test052 - USBv3\datalogger -I..\..\..\workspace\Test052 - USBv3\usblib\host -I..\..\..\workspace\Test052 - USBv3\driverlib -I..\..\..\workspace\Test052 - USBv3\inc -I..\..\..\workspace\Test052 - USBv3 -I..\..\..\workspace -I..\..\..\workspace\Test052 - USBv3\usblib\device -I..\..\.. -I..\..\..\workspace\Test052 - USBv3\third_party\fatfs">
+      <target file="hibernate.o" lastModified="1583c474490">
+         <source file="..\..\..\driverlib\hibernate.c" lastModified="154343bca6a"/>
+      </target>
+      <target file="sysexc.o" lastModified="1583c486b5a">
+         <source file="..\..\..\driverlib\sysexc.c" lastModified="154343bca83"/>
+      </target>
+      <target file="lcd.o" lastModified="1583c48615e">
+         <source file="..\..\..\driverlib\lcd.c" lastModified="154343bca6f"/>
+      </target>
+      <target file="usbdhidkeyb.o" lastModified="1583c4813a4">
+         <source file="..\..\..\usblib\device\usbdhidkeyb.c" lastModified="15619b6c8e0"/>
+      </target>
+      <target file="flash.o" lastModified="1583c477c43">
+         <source file="..\..\..\driverlib\flash.c" lastModified="154343bca65"/>
+      </target>
+      <target file="des.o" lastModified="1583c488434">
+         <source file="..\..\..\driverlib\des.c" lastModified="154343bca5a"/>
+      </target>
+      <target file="timer.o" lastModified="1583c4781b4">
+         <source file="..\..\..\driverlib\timer.c" lastModified="154343bca86"/>
+      </target>
+      <target file="usbdhandler.o" lastModified="1583c47e5d2">
+         <source file="..\..\..\usblib\device\usbdhandler.c" lastModified="15619b6c8c8"/>
+      </target>
+      <target file="crc.o" lastModified="1583c480a65">
+         <source file="..\..\..\driverlib\crc.c" lastModified="154343bca58"/>
+      </target>
+      <target file="gpio.o" lastModified="1583c47ff72">
+         <source file="..\..\..\driverlib\gpio.c" lastModified="154343bca68"/>
+      </target>
+      <target file="udma.o" lastModified="1583c487ce7">
+         <source file="..\..\..\driverlib\udma.c" lastModified="154343bca89"/>
+      </target>
+      <target file="adc.o" lastModified="1583c4831a5">
+         <source file="..\..\..\driverlib\adc.c" lastModified="154343bca52"/>
+      </target>
+      <target file="usbhostenum.o" lastModified="1583c482060">
+         <source file="..\..\..\usblib\host\usbhostenum.c" lastModified="15619b6c989"/>
+      </target>
+      <target file="usbhhid.o" lastModified="1583c482588">
+         <source file="..\..\..\usblib\host\usbhhid.c" lastModified="15619b6c95c"/>
+      </target>
+      <target file="uart.o" lastModified="1583c47a710">
+         <source file="..\..\..\driverlib\uart.c" lastModified="154343bca87"/>
+      </target>
+      <target file="delay.o" lastModified="1583c474649">
+         <source file="..\..\..\datalogger\delay.c" lastModified="1543b4f1331"/>
+      </target>
+      <target file="usbdhidmouse.o" lastModified="1583c4876b6">
+         <source file="..\..\..\usblib\device\usbdhidmouse.c" lastModified="15619b6c8e9"/>
+      </target>
+      <target file="datalogger.o" lastModified="1583c475a23">
+         <source file="..\..\..\datalogger\datalogger.c" lastModified="1583c327fbd"/>
+      </target>
+      <target file="usbdenum.o" lastModified="1583c476caf">
+         <source file="..\..\..\usblib\device\usbdenum.c" lastModified="15619b6c8bc"/>
+      </target>
+      <target file="usbdma.o" lastModified="1583c47b402">
+         <source file="..\..\..\usblib\usbdma.c" lastModified="15619b6c7b2"/>
+      </target>
+      <target file="systick.o" lastModified="1583c4878e0">
+         <source file="..\..\..\driverlib\systick.c" lastModified="154343bca84"/>
+      </target>
+      <target file="startup_Cortex_M4.o" lastModified="1583c487027">
+         <source file="..\..\..\cmsisboot\startup\startup_Cortex_M4.c" lastModified="1583a7b9654"/>
+      </target>
+      <target file="usbdbulk.o" lastModified="1583c4880ea">
+         <source file="..\..\..\usblib\device\usbdbulk.c" lastModified="15619b6c88a"/>
+      </target>
+      <target file="i2c.o" lastModified="1583c47647e">
+         <source file="..\..\..\driverlib\i2c.c" lastModified="154343bca6c"/>
+      </target>
+      <target file="usbdcdesc.o" lastModified="1583c477699">
+         <source file="..\..\..\usblib\device\usbdcdesc.c" lastModified="15619b6c89f"/>
+      </target>
+      <target file="can.o" lastModified="1583c47f3d4">
+         <source file="..\..\..\driverlib\can.c" lastModified="154343bca55"/>
+      </target>
+      <target file="ff.o" lastModified="1583c484784">
+         <source file="..\..\..\third_party\fatfs\src\ff.c" lastModified="1547295f0a5"/>
+      </target>
+      <target file="mmc-dk-tm4c123g.o" lastModified="1583c486952">
+         <source file="..\..\..\third_party\fatfs\port\mmc-dk-tm4c123g.c" lastModified="1547244556b"/>
+      </target>
+      <target file="usbdcdc.o" lastModified="1583c485cbe">
+         <source file="..\..\..\usblib\device\usbdcdc.c" lastModified="15619b6c895"/>
+      </target>
+      <target file="syscalls.o" lastModified="1583c482839">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="1580375ea15"/>
+      </target>
+      <target file="usbdesc.o" lastModified="1583c487403">
+         <source file="..\..\..\usblib\usbdesc.c" lastModified="15619b6c7a9"/>
+      </target>
+      <target file="sw_crc.o" lastModified="1583c47be07">
+         <source file="..\..\..\driverlib\sw_crc.c" lastModified="154343bca80"/>
+      </target>
+      <target file="usbringbuf.o" lastModified="1583c486e61">
+         <source file="..\..\..\usblib\usbringbuf.c" lastModified="15619b6c7f2"/>
+      </target>
+      <target file="usbbuffer.o" lastModified="1583c479d3b">
+         <source file="..\..\..\usblib\usbbuffer.c" lastModified="15619b6c7a0"/>
+      </target>
+      <target file="eeprom.o" lastModified="1583c488833">
+         <source file="..\..\..\driverlib\eeprom.c" lastModified="154343bca5e"/>
+      </target>
+      <target file="usbdcomp.o" lastModified="1583c47bb4b">
+         <source file="..\..\..\usblib\device\usbdcomp.c" lastModified="15619b6c8a5"/>
+      </target>
+      <target file="pwm.o" lastModified="1583c4799ce">
+         <source file="..\..\..\driverlib\pwm.c" lastModified="154343bca75"/>
+      </target>
+      <target file="usbmode.o" lastModified="1583c47a0f8">
+         <source file="..\..\..\usblib\usbmode.c" lastModified="15619b6c7d8"/>
+      </target>
+      <target file="cpu.o" lastModified="1583c4871e8">
+         <source file="..\..\..\driverlib\cpu.c" lastModified="154343bca57"/>
+      </target>
+      <target file="epi.o" lastModified="1583c47c54a">
+         <source file="..\..\..\driverlib\epi.c" lastModified="154343bca63"/>
+      </target>
+      <target file="usbulpi.o" lastModified="1583c47ae8e">
+         <source file="..\..\..\usblib\usbulpi.c" lastModified="15619b6c7f9"/>
+      </target>
+      <target file="usbtick.o" lastModified="1583c47bfd9">
+         <source file="..\..\..\usblib\usbtick.c" lastModified="15619b6c7f5"/>
+      </target>
+      <target file="usbhhidkeyboard.o" lastModified="1583c480d25">
+         <source file="..\..\..\usblib\host\usbhhidkeyboard.c" lastModified="15619b6c964"/>
+      </target>
+      <target file="emac.o" lastModified="1583c4790e3">
+         <source file="..\..\..\driverlib\emac.c" lastModified="154343bca61"/>
+      </target>
+      <target file="usbhmsc.o" lastModified="1583c477404">
+         <source file="..\..\..\usblib\host\usbhmsc.c" lastModified="15619b6c97a"/>
+      </target>
+      <target file="usbdhid.o" lastModified="1583c47acf2">
+         <source file="..\..\..\usblib\device\usbdhid.c" lastModified="15619b6c8cd"/>
+      </target>
+      <target file="usbhhub.o" lastModified="1583c477149">
+         <source file="..\..\..\usblib\host\usbhhub.c" lastModified="15619b6c973"/>
+      </target>
+      <target file="usbddfu-rt.o" lastModified="1583c4778eb">
+         <source file="..\..\..\usblib\device\usbddfu-rt.c" lastModified="15619b6c8b2"/>
+      </target>
+      <target file="shamd5.o" lastModified="1583c47ef14">
+         <source file="..\..\..\driverlib\shamd5.c" lastModified="154343bca7d"/>
+      </target>
+      <target file="usbdhidgamepad.o" lastModified="1583c475d1e">
+         <source file="..\..\..\usblib\device\usbdhidgamepad.c" lastModified="15619b6c8d7"/>
+      </target>
+      <target file="mpu.o" lastModified="1583c482283">
+         <source file="..\..\..\driverlib\mpu.c" lastModified="154343bca70"/>
+      </target>
+      <target file="aes.o" lastModified="1583c4803cc">
+         <source file="..\..\..\driverlib\aes.c" lastModified="154343bca53"/>
+      </target>
+      <target file="usb_serial_structs.o" lastModified="1583c4835c5">
+         <source file="..\..\..\usb_serial_structs.c" lastModified="1564dbf1248"/>
+      </target>
+      <target file="usbserial.o" lastModified="1583c4806b4">
+         <source file="..\..\..\usbserial.c" lastModified="1583bed0810"/>
+      </target>
+      <target file="interrupt.o" lastModified="1583c481092">
+         <source file="..\..\..\driverlib\interrupt.c" lastModified="154343bca6d"/>
+      </target>
+      <target file="usbhaudio.o" lastModified="1583c47eb06">
+         <source file="..\..\..\usblib\host\usbhaudio.c" lastModified="15619b6c953"/>
+      </target>
+      <target file="leds.o" lastModified="1583c480896">
+         <source file="..\..\..\leds.c" lastModified="14889266d30"/>
+      </target>
+      <target file="comp.o" lastModified="1583c47f8e1">
+         <source file="..\..\..\driverlib\comp.c" lastModified="154343bca56"/>
+      </target>
+      <target file="usbhhidmouse.o" lastModified="1583c47e3ef">
+         <source file="..\..\..\usblib\host\usbhhidmouse.c" lastModified="15619b6c96c"/>
+      </target>
+      <target file="usb.o" lastModified="1583c47e14d">
+         <source file="..\..\..\driverlib\usb.c" lastModified="154343bca8b"/>
+      </target>
+      <target file="usbdconfig.o" lastModified="1583c4793c0">
+         <source file="..\..\..\usblib\device\usbdconfig.c" lastModified="15619b6c8ad"/>
+      </target>
+      <target file="usbhscsi.o" lastModified="1583c483443">
+         <source file="..\..\..\usblib\host\usbhscsi.c" lastModified="15619b6c991"/>
+      </target>
+      <target file="watchdog.o" lastModified="1583c47f6ae">
+         <source file="..\..\..\driverlib\watchdog.c" lastModified="154343bca8c"/>
+      </target>
+      <target file="oneWire.o" lastModified="1583c4856a2">
+         <source file="..\..\..\oneWire.c" lastModified="15752e7a5b9"/>
+      </target>
+      <target file="usbdmsc.o" lastModified="1583c483aaf">
+         <source file="..\..\..\usblib\device\usbdmsc.c" lastModified="15619b6c8f2"/>
+      </target>
+      <target file="usbkeyboardmap.o" lastModified="1583c4786cf">
+         <source file="..\..\..\usblib\usbkeyboardmap.c" lastModified="15619b6c7bc"/>
+      </target>
+      <target file="main.o" lastModified="1583c47c8b0">
+         <source file="..\..\..\main.c" lastModified="1583c02cdfe"/>
+      </target>
+      <target file="usbdaudio.o" lastModified="1583c47853e">
+         <source file="..\..\..\usblib\device\usbdaudio.c" lastModified="15619b6c871"/>
+      </target>
+      <target file="fpu.o" lastModified="1583c47b60a">
+         <source file="..\..\..\driverlib\fpu.c" lastModified="154343bca67"/>
+      </target>
+      <target file="ssi.o" lastModified="1583c482bee">
+         <source file="..\..\..\driverlib\ssi.c" lastModified="154343bca7e"/>
+      </target>
+      <target file="qei.o" lastModified="1583c486494">
+         <source file="..\..\..\driverlib\qei.c" lastModified="154343bca77"/>
+      </target>
+      <target file="sysctl.o" lastModified="1583c47d2f6">
+         <source file="..\..\..\driverlib\sysctl.c" lastModified="154343bca82"/>
+      </target>
+   </processor>
+</history>
